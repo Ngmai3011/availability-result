@@ -1,38 +1,20 @@
-.App {
-  text-align: center;
+.css-1m20j1c-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: rgb(242, 113, 28) !important;
+    font-weight: bold;
+}
+.css-11yukd5-MuiTabs-indicator {
+    background-color: rgb(242, 113, 28) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.css-1ygcj2i-MuiTableCell-root {
+    background-color: rgb(242, 113, 28);
+    color: white !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+Table {
+    margin: 36px 0 36px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+    min-width: 300px !important;
 }
